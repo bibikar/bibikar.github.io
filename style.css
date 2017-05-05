@@ -1,20 +1,32 @@
 body {
-	font-family: 'Segoe UI','Cantarell', sans-serif;
+	font-family: 'Cantarell', 'Segoe UI', sans-serif;
 	background-color: #eeeeee;
 	color: #333333;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 h1 {
-	font-size: 72px;
+	font-size: 64px;
 	margin-top: 24px;
 	font-weight: normal;
+	margin-bottom: 4px;
 
 }
 
+h2 {
+	font-size: 40px;
+	margin-top: 32px;
+	margin-bottom: 8px;
+	font-weight: normal;
+}
+
 a {
-	color: #115555;
+	color: #117777;
 	text-decoration: none;
+}
+
+a.project {
+	font-size:28px;
 }
 
 a:hover, a:active {
